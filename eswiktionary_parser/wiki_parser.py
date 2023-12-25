@@ -138,7 +138,7 @@ def parse_templates(code: Wikicode) -> Wikicode:
             template.name.startswith("lengua") or \
             template.name.startswith("países") or \
             template.name.startswith("pron-graf") or \
-            template.name.startswith("sustantivo"):
+            template.name == "sustantivo": # We don't want to remove templates like {{sustantivo de verbo|...
             safe_remove(code, template)
             continue
         
@@ -185,7 +185,13 @@ def parse_templates(code: Wikicode) -> Wikicode:
             continue
         
         if template.name == "sustantivo de verbo":
-            verb = template.get(1)
+            if template.has("glosa"):
+                verb = template.get("glosa").value
+            elif template.has(1):
+                verb = template.get(1)
+            else:
+                safe_remove(code, template)
+                continue
             meaning = "Acción o efecto de {}".format(verb)
             safe_replace(code, template, meaning)
             continue

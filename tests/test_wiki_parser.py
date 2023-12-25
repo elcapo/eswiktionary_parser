@@ -42,5 +42,9 @@ def test_removes_related_data():
     assert len(definitions) == 2
     assert definitions[1].definition == "Nombre de pila de mujer."
 
+def test_process_nouns_acting_as_verbs():
+    definitions = read_and_parse_fixture("tests/fixtures/mudanza.wiki")
+    assert definitions[0].definition == "Acción o efecto de cambiar, en especial en las ideas o sentimientos."
+
 if __name__ == "__main__":
-    test_removes_related_data()
+    test_process_nouns_acting_as_verbs()

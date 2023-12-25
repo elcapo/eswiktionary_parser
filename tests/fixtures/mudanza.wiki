@@ -1,0 +1,47 @@
+== {{lengua|es}} ==
+{{pron-graf|pron=seseo|altpron=No seseante|fone=muˈðan.θa|2pron=seseo|alt2pron=Seseante|2fone=muˈðan.sa}}
+[[Categoría:ES:Palabras con el sufijo -anza]]
+
+=== Etimología ===
+{{etimología|latín medieval|mudantia}}&lt;ref&gt;{{DuCange|mudantia}}&lt;/ref&gt;, que reemplazó al clásico {{l+|la|mutatio|glosa=mutación|glosa-alt=mutación, cambio}}. Compárese el catalán {{l+|ca|mudança}} o el francés {{l+|fr|muance}}
+
+=== {{sustantivo femenino|es}} ===
+{{inflect.es.sust.reg}}
+
+;1: {{sustantivo de verbo|mudar|glosa=cambiar}}, en especial en las [[idea]]s o [[sentimiento]]s
+{{sinónimo|alteración|cambio|variación}}
+:*'''Ejemplos:'''
+::&quot;este Rey mudó el escudo de las cinco quinas al lado derecho, porque su bisabuelo, el que ganó la de Aljubarrota, las traía al revés, sobre la cruz de Avís ó Cister, antes que debidamente y por autoridad apostólica se intitulase Rey, y á esta causa de la tal ''mudanza'' da la historia la noticia que digo.&quot; Anónimo (1890 [1545]) ''Sermón de Aljubarrota, con las glosas de D. Diego Hurtado de Mendoza''. Madrid: M. Tello, p. 149
+::&quot;y si, con sus naturales ''mudanzas'', autorizan cambio en su apariencia, desde el doncel que desapareció en la triste jornada de Alcazarquivir hasta el varón cumplido que hoy reaparece en tierras castellanas, consienten también cualquier duda y alientan las esperanzas de cualquier pleito.&quot; Ayala, Francisco (1992 [1950]) ''Los usurpadores''. Madrid: Cátedra, p. 170
+
+;2: {{sustantivo de verbo|mudarse}} de [[domicilio]]
+:*'''Ejemplos:'''
+::&quot;Entonces Aladino sacó del fondo de un armario de nácar la lámpara mágica, que había tenido mucho cuidado de no olvidar en la ''mudanza'' de la antigua casa al palacio, y la frotó como tenía por costumbre hacerlo.&quot; Anónimo. ''Las mil y una noches''. Trad. Vicente Blasco Ibáñez (1916). Miami, FL: Omega, ¶93
+::&quot;Al tercer día, una gotera amenazó la casa del capataz; Espinosa les dio una habitación que quedaba en el fondo, al lado del galpón de las herramientas. La ''mudanza'' los fue acercando; comían juntos en el gran comedor.&quot; Borges, Jorge Luis (1986 [1970]) ''El informe de Brodie''. Caracas: Ayacucho, p. 115
+
+;3 {{música|y|danza}}: {{plm|serie}} de [[paso]]s que forman una [[unidad]] [[reconocible]]
+:*'''Ejemplos:'''
+::&quot;Declárase por necio argentado al que, yendo por la calle, lleva su sombra por espejo ordinario, preguntando al sol los defectos de sus bigotes por junto a su sombrero, bajo sacadura de pescuezo, espada y tiesura de cabello, con más continencias, ''mudanzas'' y pausas que un maestro de danzar.&quot; de Quevedo y Villegas, Francisco (1993 [1605]) ''Origen y definición de la necedad''. Madrid: Cátedra, p. 205
+::&quot;Antón Boliche, en verdad, no fue gran inventor en pasos y ''mudanzas'', contentándose con acomodar al compás y medida del Bolero lo que encontró de gracioso y notable en el antiguo Fandango, en los Polos, Tirana y demás bailes de su tiempo&quot;. Estébanez Calderón, Serafín (1985 [1847]) ''Escenas andaluzas''. Madrid: Cátedra, p. 84
+
+;4 {{música}}: Mudanza{{-sub|1}} de los [[nombre]]s de las [[nota]]s del [[solfeo]], que se empleaba para identificar el [[si]] antes de que le fuera asignado un nombre propio&lt;ref&gt;{{DRAE2001}}&lt;/ref&gt;&lt;ref name=&quot;Moliner&quot;&gt;{{MaríaMoliner}}&lt;/ref&gt;
+
+;5 {{música}}: {{plm|estrofa}} siguiente al [[estribillo]] en los [[villancico]]s&lt;ref name=&quot;Moliner&quot; /&gt;
+
+=== Locuciones ===
+* [[deshacer la mudanza]]
+* [[hacer mudanzas]]
+
+{{clear}}
+
+=== Traducciones ===
+{{trad-arriba}}
+{{t+|de|1–2|Umzug|m}}
+{{t+|fr|1|mue|,|changement|,|2|déménagement|,|4|muance}}
+{{trad-centro}}
+{{t+|en|2|removal}}
+{{t+|nhn|?|necalpatlaliztli|1}}
+{{trad-abajo}}
+
+== Referencias y notas ==
+&lt;references /&gt;
