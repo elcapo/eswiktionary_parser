@@ -1,6 +1,7 @@
 from eswiktionary_parser.wiki_parser import parse_and_get_definitions
 
 def test_can_handle_templates_in_templates():
+    # @link https://es.wiktionary.org/wiki/el
     code = """
 === {{artículo determinado|es}} ===
 ;1: {{impropia|{{plm|artículo determinado}} masculino singular}}.
