@@ -1,0 +1,59 @@
+== {{lengua|es}} ==
+{{pron-graf|fono=boj}}
+
+=== Etimología ===
+{{etimología|en|boy|muchacho}} o &quot;[[chico]]&quot;. Neologismo de cuño reciente.
+
+=== {{sustantivo masculino|es}} ===
+{{inflect.es.sust.reg}}
+
+;1: Chico del cuerpo de baile en las revistas y espectáculos musicales.
+:*'''Ejemplo''': ''se despedía siempre del grupo como si fuera Celia Gámez en la apoteosis final, del brazo del primer boy (Pedro) y nos quedábamos con un palmo de narices.'' (Fuente: José María Guelbenzu: ''El río de la luna''. España, 1981. [[Wikcionario:Fuentes#CREA|CREA]].)
+{{ámbito|España}}
+
+;2: {{plm|chico}} que actúa [[bailar|bailando]] en [[espectáculo]]s [[erótico]]s cuyo [[número]] principal consiste en ir [[desnudar|desnudándose]] al ritmo de la música.
+:*'''Ejemplo''': ''Tras un montón de copas se animaron y decidieron acudir en grupo a un espectáculo de boys muy famoso en su localidad por la calidad de los que allí actuaban, sobre todo de un tal MAKUMBO, que estaba tremendamente bien dotado para el desarrollo de su profesión''.&lt;ref&gt;{{cita web|url=http://mitosurbanosve.blogspot.com/2011/04/el-boy-negro.html|título=Leyendas urbanas: El boy negro|fechaacceso=21 de julio de 2004|autor=Mitos Urbanos}}&lt;/ref&gt;
+{{ámbito|España}}
+
+;3: Sirviente nativo, doméstico o personal, de las colonias africanas y asiáticas.
+:*'''Ejemplo''': ''El inglés se inclinó ante Ferral y se dirigió al portero. Éste le entregó una carta. La leyó, llamó a su boy, sacó de su cartera una tarjeta de visita, la colocó en la jaula, dijo al portero: 'Para la señora Serge' y salió.'' (Fuente: Victoria Ocampo: ''Testimonios. Décima Serie. 1975-1977''. Argentina, 1977. [[Wikcionario:Fuentes#CREA|CREA]].)
+{{ámbito|España}}, Argentina
+
+=== Locuciones ===
+*[[boy scout]]
+*[[cow boy]]
+*[[play boy]]
+*[[game boy]]
+
+=== Véase también ===
+{{w}}
+
+{{clear}}
+
+=== Traducciones ===
+{{trad-arriba}}
+&lt;!-- formato: {{t+|idioma|&lt;acepción#&gt;|palabra|género}} p. ej. {{t+|fr|1|chose|f}} --&gt;
+{{trad-centro}}
+{{trad-abajo}}
+
+== {{lengua|en}} ==
+{{pron-graf|leng=en
+|fono=bɔɪ|audio=en-us-boy.ogg|aunota=EE. UU.
+|2pron=Southern American English|2fono=bɔːə
+|homófono=buoy}}
+
+=== Etimología ===
+{{etimología|leng=en|enm|boye}} y este del inglés antiguo ''[[boia]]'', el protogermánico *''[[bōjô]]'' y el protoindoeuropeo *''[[bʰāt-]]''.
+
+=== {{sustantivo|en}} ===
+{{inflect.en.sust.sg-pl|boy|boys}}
+
+;1: {{plm|niño}}, [[muchacho]], [[mozalbete]]
+:*'''Femenino:''' [[girl]]
+
+=== Palabras derivadas ===
+*''[[boyhood]]'' ''s''
+*''[[boyish]]'' ''adj''
+
+== Referencias y notas ==
+&lt;references /&gt;

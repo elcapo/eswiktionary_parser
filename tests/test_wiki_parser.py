@@ -67,5 +67,9 @@ def test_can_name_the_person_of_a_conjugation():
     definitions = read_and_parse_fixture("tests/fixtures/listen.wiki")
     assert definitions[0].definition == "Tercera persona del plural (ellas, ellos), o segunda persona del plural (ustedes) del presente de subjuntivo de listar."
 
+def test_exclude_references_to_scopes():
+    definitions = read_and_parse_fixture("tests/fixtures/boy.wiki")
+    assert len(definitions) == 3
+
 if __name__ == "__main__":
-    test_can_name_the_person_of_a_conjugation()
+    test_exclude_references_to_scopes()
