@@ -317,7 +317,7 @@ def remove_leading_numbers(definition: str) -> str:
     return re.sub(r'^\d+\s*', '', definition, flags = re.MULTILINE)
 
 def remove_examples(definition: str) -> str:
-    return re.sub(r'^("|:|&quot;|{{uso|{{ejemplo|{{sinónimo|{{relacionado).*\n', '', definition, flags = re.MULTILINE)
+    return re.sub(r'^("|:|&quot;|{{uso|{{ejemplo|{{sinónimo|{{relacionado|{{ámbito).*\n', '', definition, flags = re.MULTILINE)
 
 def remove_references(definition: str) -> str:
     definition = re.sub(r'(?<=&lt;ref&gt;)(.*?)(?=&lt;\/ref&gt;)', '', definition, flags = re.MULTILINE)
