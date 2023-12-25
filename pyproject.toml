@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "eswiktionary_parser"
+version = "0.1.0"
+description = ""
+authors = ["Carlos Capote Pérez-Andreu <carlos.capote@hawara.es>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+bigxml = "^1.0.0"
+mwparserfromhell = "^0.6.5"
+lxml = "^4.9.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

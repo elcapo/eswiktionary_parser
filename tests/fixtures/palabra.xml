@@ -1,0 +1,266 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="es">
+  <siteinfo>
+    <sitename>Wikcionario</sitename>
+    <dbname>eswiktionary</dbname>
+    <base>https://es.wiktionary.org/wiki/Wikcionario:Portada</base>
+    <generator>MediaWiki 1.42.0-wmf.9</generator>
+    <case>case-sensitive</case>
+    <namespaces>
+      <namespace key="-2" case="case-sensitive">Medio</namespace>
+      <namespace key="-1" case="first-letter">Especial</namespace>
+      <namespace key="0" case="case-sensitive" />
+      <namespace key="1" case="case-sensitive">Discusión</namespace>
+      <namespace key="2" case="first-letter">Usuario</namespace>
+      <namespace key="3" case="first-letter">Usuario discusión</namespace>
+      <namespace key="4" case="case-sensitive">Wikcionario</namespace>
+      <namespace key="5" case="case-sensitive">Wikcionario discusión</namespace>
+      <namespace key="6" case="case-sensitive">Archivo</namespace>
+      <namespace key="7" case="case-sensitive">Archivo discusión</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki discusión</namespace>
+      <namespace key="10" case="case-sensitive">Plantilla</namespace>
+      <namespace key="11" case="case-sensitive">Plantilla discusión</namespace>
+      <namespace key="12" case="case-sensitive">Ayuda</namespace>
+      <namespace key="13" case="case-sensitive">Ayuda discusión</namespace>
+      <namespace key="14" case="case-sensitive">Categoría</namespace>
+      <namespace key="15" case="case-sensitive">Categoría discusión</namespace>
+      <namespace key="100" case="case-sensitive">Apéndice</namespace>
+      <namespace key="101" case="case-sensitive">Apéndice Discusión</namespace>
+      <namespace key="710" case="case-sensitive">TimedText</namespace>
+      <namespace key="711" case="case-sensitive">TimedText talk</namespace>
+      <namespace key="828" case="case-sensitive">Módulo</namespace>
+      <namespace key="829" case="case-sensitive">Módulo discusión</namespace>
+      <namespace key="2300" case="case-sensitive">Accesorio</namespace>
+      <namespace key="2301" case="case-sensitive">Accesorio discusión</namespace>
+      <namespace key="2302" case="case-sensitive">Accesorio definición</namespace>
+      <namespace key="2303" case="case-sensitive">Accesorio definición discusión</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>palabra</title>
+    <ns>0</ns>
+    <id>6672</id>
+    <revision>
+      <id>5047956</id>
+      <parentid>5036336</parentid>
+      <timestamp>2022-04-02T14:03:50Z</timestamp>
+      <contributor>
+        <username>SemperAutumnus</username>
+        <id>116565</id>
+      </contributor>
+      <comment>/* {{lengua|es}}  Etimología* /  Añadido que es doblete de 'parábola'</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="6076" xml:space="preserve">== {{lengua|es}} ==
+{{pron-graf|fone=paˈla.βɾa}}
+
+=== Etimología ===
+{{etimología|osp|parabla}}, {{etim|la|parabola}} «[[comparación]], [[símil]]», {{etim|grc|παραβολή|tr=parabolḗ}} «[[comparación]], [[alegoría]]».&lt;ref&gt;{{Corominas-breve|433-34|año=1967|ed=2}}&lt;/ref&gt; Doblete de ''[[parábola]]''.
+
+=== {{sustantivo femenino|es}} ===
+{{inflect.es.sust.reg}}
+
+;1: Unidad mínima de significado de una [[lengua]] o [[idioma]].
+{{sinónimo|vocablo|voz|término}}.
+{{relacionado|palabro}}.
+:*'''Ejemplo:''' Los hablantes mudan el valor de las ''palabras'' y de las expresiones (Carreter, Lázaro: ''El dardo en la palabra'', Barcelona, Círculo de Lectores, Galaxia Gutemberg, 1997, pag. 19.)
+;2: Aptitud de una persona para expresarse de forma verbal.
+{{sinónimo|facilidad de palabra}}.
+;3: Cualidad de fe, veracidad o credibilidad de una persona.
+;4 {{lingüística}}: Parte del discurso, delimitada por el significado, entonación, y habitualmente por pausa inicial y final.
+;5: Turno de hablar en una asamblea.
+;6 {{informática}}: Unidad de información que consta generalmente de 32 bits. Es el número de bits que manipula el ordenador en cada ciclo de trabajo.
+{{sinónimo|word}}.
+:*'''Relacionados:''' [[bit]], [[nibble]] (4 bits), [[byte]] u [[octeto]] (8 bits), [[halfword]] (16 bits), [[word]] (32 bits), [[doubleword]] o [[doble palabra]] (64 bits)
+
+=== {{interjección|es}} ===
+;7: ''Se usa para prometer cumplir o buena fe en lo que se dice''.
+:*'''Ejemplo:''' De veras vengo mañana. ¡Palabra!
+
+{{clear}}
+
+=== Locuciones ===
+{{rel-arriba|Locuciones con «palabra»}}
+* [[doble palabra]]: 64 bits.
+* [[facilidad de palabra]]
+* [[familia de palabras]]
+* [[flujo de palabras]]
+* [[juego de palabras]]
+* [[palabra clave]]
+* [[palabra comodín]]
+* [[palabra compuesta]]
+* [[palabra de Dios]]
+* [[palabra de paso]]: Informática, contraseña larga.
+* [[palabra divina]]
+* [[palabra de honor]]
+* [[palabra de hombre]]
+* [[palabra de matrimonio]]
+* la [[Palabra encarnada]]: En teología, el Verbo.
+* {{l|es|palabra fantasma}}
+* [[palabra gruesa]]
+* [[palabra mágica]]
+* [[palabra ociosa]]
+* [[palabra pesada]]
+* [[palabra picante]]
+* [[palabras cruzadas]]
+* [[palabras de la ley]]
+* [[palabras del duelo]]
+* [[palabras de oráculo]]
+* [[palabras de presente]]
+* [[palabra simple]]
+* [[ahorrar palabras]]
+* [[a la primera palabra]]
+* [[alzar la palabra]]
+* [[a media palabra]]
+* [[atravesar una palabra con alguien]]
+* [[bajo palabra]]
+* [[bajo su palabra]]
+* [[beber las palabras]]
+* [[buenas palabras]]
+* [[coger la palabra]]
+* [[coger las palabras]]
+* [[comerse las palabras]]
+* [[correr la palabra]]
+* [[cruzar la palabra]]
+* [[cuatro palabras]]
+* [[dar la palabra]]
+* [[dar palabra]]
+* [[dar palabra y mano]]
+* [[dar su palabra]]
+* [[decir la última palabra]]
+* [[dejar con la palabra en la boca]]
+* [[de palabra]]
+* [[de palabra en palabra]]
+* [[de pocas palabras]]
+* [[dirigir la palabra]] a alguien:
+* [[dos palabras]]
+* [[empeñar la palabra]]
+* [[en cuatro palabras]]
+* [[en dos palabras]]
+* [[en pocas palabras]]
+* [[en una palabra]]
+* [[escapársele una palabra]]
+* [[estar colgado de las palabras]] de alguien:
+* [[estar pendiente de las palabras]] de alguien:
+* [[facilidad de palabra]]
+{{rel-centro}}
+* [[faltar a la palabra]]
+* [[faltar a su palabra]]
+* [[faltar palabras]]
+* [[familia de palabras]]
+* [[gastar palabras]]
+* [[írsele una palabra]]
+* [[llevar la palabra]]
+* [[mala palabra]]: palabra malsonante
+{{sinónimo|disparate|nota1=Bolivia|garabato|nota2=Chile|grosería|nota3=Colombia, Puerto Rico, Venezuela|improperio|nota4=Ecuador|lisura|nota5=Perú|palabra sucia|nota6=Panamá|palabrota|taco|nota8=España|vulgaridad|nota9=Venezuela}}
+* [[malas palabras]]: lenguaje soez
+* [[mantener su palabra]]
+* [[medias palabras]]
+* [[medir las palabras]]
+* [[mudar las palabras]]
+* [[ni media palabra]]
+* [[ni palabra]]
+* [[no decir palabra]]
+* [[no ser más que palabras]]
+* [[no tener más que palabras]]
+* [[no tener más que una palabra]]
+* [[no tener palabra]]
+* [[no tener palabras]]
+* [[oír dos palabras]]
+* [[oír una palabra]]
+* [[palabra de hombre]]
+* [[palabra de honor]]
+* [[palabra de mujer]]
+* [[palabra de rey]]
+* [[palabras al aire]]
+* [[palabras de buena crianza]]
+* [[palabras mayores]]
+* [[palabra preñada]]
+* [[palabras libres]]
+* [[palabra por palabra]]
+* [[pasar la palabra]]
+* [[pedir la palabra]]
+* [[quitarle la palabra de la boca]]
+* [[quitarle las palabras de la boca]]
+* [[remojar la palabra]]
+* [[santa palabra]]
+* [[ser la última palabra del credo]]
+* [[sin decir palabra]]
+* [[sin hablar palabra]]
+* [[sobre su palabra]]
+* [[soltar la palabra]]
+* [[tener la palabra]]
+* [[tener dos palabras con]] alguien:
+* [[tener más de dos palabras con]] alguien:
+* [[tener unas palabras con]] alguien:
+* [[tener palabras con]] alguien:
+* [[tomar la palabra]]
+* [[torcer las palabras]]
+* [[trabarse de palabras]]
+* [[traer en palabras]]
+* [[tragarse sus palabras]]
+* [[tratar mal de palabra]] a alguien:
+* [[trocar las palabras]]
+* [[última palabra]]
+* [[una palabra]]
+* [[vender palabras]]
+* [[venir contra su palabra]]
+* [[volverle las palabras al cuerpo]]
+{{rel-abajo}}
+
+=== Refranes ===
+* [[a palabras necias, oídos sordos]]
+* [[palabras sacan palabras]]
+
+=== Véase también ===
+{{Wikipedia}}.
+{{Wikiquote}}
+
+{{clear}}
+
+=== Traducciones ===
+{{trad-arriba}}
+{{t+|de|Wort|n}}
+{{t+|ast|pallabra}}
+{{t+|az|söz}}
+{{t+|br|ger|m}}
+{{t+|bg|дума}}
+{{t+|ca|paraula|f}}
+{{t+|cs|slovo}}
+{{t+|ht|1|pawòl}}
+{{t+|da|ord}}
+{{t+|eo|vorto}}
+{{t+|eu|hitz|,|berba}}
+{{t+|fr|mot|m}}
+{{t+|fy|wurd}}
+{{t+|el|λέξη|,|λόγος}}
+{{t+|got|𐍅𐌰𐌿𐍂𐌳|tr|waurd|n}}
+{{t+|en|1|word}}
+{{t+|ia|parola}}
+{{t+|ga|focal|m}}
+{{trad-centro}}
+{{t+|hu|szó}}
+{{t+|is|orð|n}}
+{{t+|it|parola|f}}
+{{t+|ja|言葉}}
+{{t+|la|verbum|n|,|vocabulum|n}}
+{{t+|mt|1|kelma}}
+{{t+|nhn|tlahtolli}}
+{{t+|nl|woord|n}}
+{{t+|no|ord}}
+{{t+|pap|palabra}}
+{{t+|pl|1|słowo|n}}
+{{t+|pt|palavra|f}}
+{{t+|ro|cuvînt}}
+{{t+|ru|слово}}
+{{t+|sv|ord}}
+{{t+|tt|suz}}
+{{t+|tr|sözcük}}
+{{trad-abajo}}
+
+== Referencias y notas ==
+&lt;references /&gt;</text>
+      <sha1>rvfqrnda3pdgurrv7p3kg7w8tkgmxvy</sha1>
+    </revision>
+  </page>
+</mediawiki>

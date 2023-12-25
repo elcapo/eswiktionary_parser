@@ -1,0 +1,90 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="es">
+  <siteinfo>
+    <sitename>Wikcionario</sitename>
+    <dbname>eswiktionary</dbname>
+    <base>https://es.wiktionary.org/wiki/Wikcionario:Portada</base>
+    <generator>MediaWiki 1.42.0-wmf.9</generator>
+    <case>case-sensitive</case>
+    <namespaces>
+      <namespace key="-2" case="case-sensitive">Medio</namespace>
+      <namespace key="-1" case="first-letter">Especial</namespace>
+      <namespace key="0" case="case-sensitive" />
+      <namespace key="1" case="case-sensitive">Discusión</namespace>
+      <namespace key="2" case="first-letter">Usuario</namespace>
+      <namespace key="3" case="first-letter">Usuario discusión</namespace>
+      <namespace key="4" case="case-sensitive">Wikcionario</namespace>
+      <namespace key="5" case="case-sensitive">Wikcionario discusión</namespace>
+      <namespace key="6" case="case-sensitive">Archivo</namespace>
+      <namespace key="7" case="case-sensitive">Archivo discusión</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki discusión</namespace>
+      <namespace key="10" case="case-sensitive">Plantilla</namespace>
+      <namespace key="11" case="case-sensitive">Plantilla discusión</namespace>
+      <namespace key="12" case="case-sensitive">Ayuda</namespace>
+      <namespace key="13" case="case-sensitive">Ayuda discusión</namespace>
+      <namespace key="14" case="case-sensitive">Categoría</namespace>
+      <namespace key="15" case="case-sensitive">Categoría discusión</namespace>
+      <namespace key="100" case="case-sensitive">Apéndice</namespace>
+      <namespace key="101" case="case-sensitive">Apéndice Discusión</namespace>
+      <namespace key="710" case="case-sensitive">TimedText</namespace>
+      <namespace key="711" case="case-sensitive">TimedText talk</namespace>
+      <namespace key="828" case="case-sensitive">Módulo</namespace>
+      <namespace key="829" case="case-sensitive">Módulo discusión</namespace>
+      <namespace key="2300" case="case-sensitive">Accesorio</namespace>
+      <namespace key="2301" case="case-sensitive">Accesorio discusión</namespace>
+      <namespace key="2302" case="case-sensitive">Accesorio definición</namespace>
+      <namespace key="2303" case="case-sensitive">Accesorio definición discusión</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>asocar</title>
+    <ns>0</ns>
+    <id>2317</id>
+    <revision>
+      <id>2947234</id>
+      <parentid>1976374</parentid>
+      <timestamp>2015-09-23T18:58:16Z</timestamp>
+      <contributor>
+        <username>PBbot</username>
+        <id>57917</id>
+      </contributor>
+      <comment>{{ucf}} → {{plm}}; conversión a la nueva estructura; {{pronunciación}}, '''Variantes:''' → {{pron-graf}}; añadiendo tabla de traducciones; elementos &quot;clear&quot;; espacios en blanco</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1531" xml:space="preserve">== {{lengua|es}} ==
+{{pron-graf|fone=a.soˈkaɾ|v=azocar}}
+
+=== Etimología ===
+{{etimología2|De {{l+|es|azocar}}}}, y este de {{l+|es|a-}} y {{l+|es|zueco}}
+
+=== {{verbo transitivo|es}} ===
+
+;1 {{Náutica}}: {{plm|tensar}} con [[fuerza]] un [[nudo]] o [[atadura]]
+::&quot;Para ''asocar'' el nudo recto se deben tensar los dos firmes, ó los dos chicotes á la vez, porque sino zafa&quot;. Ibañez é Ibañez de Ibero, Carlos &amp; Modet y Eguia, Juan (1853) ''Manual del pontonero: comprende todos los detalles de la instruccion del soldado, las maniobras de los trenes de reglamento, rodado y á lomo, y el servicio que desempeña el Pontonero en campaña''. Madrid: Impr. del Memorial de Ingenieros, p. 60
+
+;2: Por extensión, [[prensar]] con fuerza&lt;ref&gt;de Toro y Gisbert, Miguel (1912) ''Americanismos''. Paris: P. Ollendorff, p. 225 [http://books.google.com/books?id=umIeAAAAMAAJ&amp;dq=&quot;asocar&quot;]&lt;/ref&gt;
+:*'''Ámbito:''' {{Cuba}}
+
+;3: En especial, asocar{{-sub|1}} las [[paja]]s que [[rematar|rematan]] un [[sombrero]] [[panamá]]
+:*'''Ámbito:''' {{Ecuador}}
+
+;4: {{plm|moler}} la [[yerba mate]] en [[mortero]]&lt;ref&gt;Sarasola, Rodolfo M. (1998) ''Las voces de la yerba mate: breve vocabulario ilustrado''. Posadas: Universidad Nacional de Misiones, p. 15&lt;/ref&gt;
+:*'''Ámbito:''' {{Argentina}}
+
+=== Conjugación ===
+{{es.v.conj.car|aso}}
+
+{{clear}}
+
+=== Traducciones ===
+{{trad-arriba}}
+&lt;!-- formato: {{t+|idioma|&lt;acepción#&gt;|palabra|género}} p. ej. {{t+|fr|1|chose|f}} --&gt;
+{{trad-centro}}
+{{trad-abajo}}
+
+== Referencias y notas ==
+&lt;references /&gt;</text>
+      <sha1>tpzst2n40ujbqkcfpxq1sh7szoi2gtg</sha1>
+    </revision>
+  </page>
+</mediawiki>

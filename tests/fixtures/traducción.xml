@@ -1,0 +1,104 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="es">
+  <siteinfo>
+    <sitename>Wikcionario</sitename>
+    <dbname>eswiktionary</dbname>
+    <base>https://es.wiktionary.org/wiki/Wikcionario:Portada</base>
+    <generator>MediaWiki 1.42.0-wmf.9</generator>
+    <case>case-sensitive</case>
+    <namespaces>
+      <namespace key="-2" case="case-sensitive">Medio</namespace>
+      <namespace key="-1" case="first-letter">Especial</namespace>
+      <namespace key="0" case="case-sensitive" />
+      <namespace key="1" case="case-sensitive">Discusión</namespace>
+      <namespace key="2" case="first-letter">Usuario</namespace>
+      <namespace key="3" case="first-letter">Usuario discusión</namespace>
+      <namespace key="4" case="case-sensitive">Wikcionario</namespace>
+      <namespace key="5" case="case-sensitive">Wikcionario discusión</namespace>
+      <namespace key="6" case="case-sensitive">Archivo</namespace>
+      <namespace key="7" case="case-sensitive">Archivo discusión</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki discusión</namespace>
+      <namespace key="10" case="case-sensitive">Plantilla</namespace>
+      <namespace key="11" case="case-sensitive">Plantilla discusión</namespace>
+      <namespace key="12" case="case-sensitive">Ayuda</namespace>
+      <namespace key="13" case="case-sensitive">Ayuda discusión</namespace>
+      <namespace key="14" case="case-sensitive">Categoría</namespace>
+      <namespace key="15" case="case-sensitive">Categoría discusión</namespace>
+      <namespace key="100" case="case-sensitive">Apéndice</namespace>
+      <namespace key="101" case="case-sensitive">Apéndice Discusión</namespace>
+      <namespace key="710" case="case-sensitive">TimedText</namespace>
+      <namespace key="711" case="case-sensitive">TimedText talk</namespace>
+      <namespace key="828" case="case-sensitive">Módulo</namespace>
+      <namespace key="829" case="case-sensitive">Módulo discusión</namespace>
+      <namespace key="2300" case="case-sensitive">Accesorio</namespace>
+      <namespace key="2301" case="case-sensitive">Accesorio discusión</namespace>
+      <namespace key="2302" case="case-sensitive">Accesorio definición</namespace>
+      <namespace key="2303" case="case-sensitive">Accesorio definición discusión</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>traducción</title>
+    <ns>0</ns>
+    <id>1572</id>
+    <revision>
+      <id>4925212</id>
+      <parentid>4925146</parentid>
+      <timestamp>2020-05-07T18:21:51Z</timestamp>
+      <contributor>
+        <username>Peter Bowman</username>
+        <id>34685</id>
+      </contributor>
+      <comment>rv - por favor, discútelo con la comunidad</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1626" xml:space="preserve">{{desambiguación|traduccion}}
+
+== {{lengua|es}} ==
+{{pron-graf|pron=seseo|altpron=No seseante|fone=tɾa.ðukˈθion|2pron=seseo|alt2pron=Seseante|2fone=tɾa.ðukˈsion}}
+
+=== Etimología ===
+{{etimología|la|traductio|sig=no}}, ''traductionis''.
+
+=== {{sustantivo femenino|es}} ===
+{{inflect.es.sust.-ón|traducci}}
+
+;1: {{sustantivo de verbo|traducir}}
+;2: Cada una de las versiones en diferentes idiomas a las que se ha traducido una obra literaria.
+;3: {{plm|figura}} [[retórico|retórica]] de que se usa, reptiendo una [[palabra]] en diversos [[sentido]]s.&lt;ref name=&quot;novísimo&quot;&gt;{{Labernia1866}} Pág. 899&lt;/ref&gt;
+;4: {{plm|sentido}} oculto que se le encuentra a algún discurso, escrito o hecho cualquiera.
+;5 {{biología}}: Proceso de lectura de la secuencia de bases del [[ARN]] y elaboración de la proteína correspondiente.
+
+=== Locuciones ===
+* [[traducción directa]]: La del idioma extranjero hacia la lengua del traductor. Es la que generalmente es de mayor calidad.
+* [[traducción inversa]]: La que se hace desde la lengua del traductor hacia una lengua extranjera. No se recomienda.
+
+=== Véase también ===
+{{w}}
+
+{{clear}}
+
+=== Traducciones ===
+{{trad-arriba}}
+{{t+|de|1|Übersetzung}}
+{{t+|ca|1|traducció}}
+{{t+|bs|1|prevod}}
+{{t+|br|1|troidigezh|f}}
+{{t+|bg|1|превод}}
+{{t+|sl|1|prevajanje}} {{n}}, {{trad|sl|prevod|1,2}} {{m}}
+{{t+|eu|?|itzulpengintza|,|itzulpen}}
+{{trad-centro}}
+{{t+|fr|1|traduction}}
+{{t+|en|1|translation}}
+{{t+|it|1|traduzione}}
+{{t+|nl|1|vertaling}}
+{{t+|oc|1|traduccion}}
+{{t+|pt|1|tradução}}
+{{t+|hu|1|fordítás}}
+{{trad-abajo}}
+
+== Referencias y notas ==
+&lt;references /&gt;</text>
+      <sha1>h5dhhjvkkr477j58i94ta4zj4sg8gsj</sha1>
+    </revision>
+  </page>
+</mediawiki>
