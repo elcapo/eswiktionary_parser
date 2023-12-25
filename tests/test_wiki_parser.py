@@ -30,7 +30,7 @@ def test_removes_leading_parenthesis():
 
 def test_processes_past_simple_templates():
     definitions = read_and_parse_fixture("tests/fixtures/pasasteis.wiki")
-    assert definitions[0].definition == "Segunda persona del plural del pretérito perfecto simple de indicativo de pasar."
+    assert definitions[0].definition == "Segunda persona del plural (vosotras, vosotros) del pretérito perfecto simple de indicativo de pasar."
 
 def test_removes_images():
     definitions = read_and_parse_fixture("tests/fixtures/calzado.wiki")
@@ -50,5 +50,22 @@ def test_ignore_non_spanish_definitions():
     definitions = read_and_parse_fixture("tests/fixtures/nombre.wiki")
     assert len(definitions) == 4
 
+def test_can_name_the_person_of_a_conjugation():
+    # Second person singular (tú)
+    definitions = read_and_parse_fixture("tests/fixtures/provén.wiki")
+    assert definitions[0].definition == "Segunda persona del singular (tú) del imperativo de provenir."
+    # Second person singular (vos)
+    definitions = read_and_parse_fixture("tests/fixtures/andá.wiki")
+    assert definitions[0].definition == "Segunda persona del singular (vos) del imperativo de andar."
+    # Second person singular (tú, vos)
+    definitions = read_and_parse_fixture("tests/fixtures/provinieras.wiki")
+    assert definitions[0].definition == "Segunda persona del singular (tú, vos) del imperfecto de subjuntivo de provenir."
+    # Second person singular (usted)
+    definitions = read_and_parse_fixture("tests/fixtures/véase.wiki")
+    assert definitions[0].definition == "Segunda persona del singular (usted) del imperativo de verse."
+    # Second person plural (ustedes)
+    definitions = read_and_parse_fixture("tests/fixtures/listen.wiki")
+    assert definitions[0].definition == "Tercera persona del plural (ellas, ellos), o segunda persona del plural (ustedes) del presente de subjuntivo de listar."
+
 if __name__ == "__main__":
-    test_ignore_non_spanish_definitions()
+    test_can_name_the_person_of_a_conjugation()

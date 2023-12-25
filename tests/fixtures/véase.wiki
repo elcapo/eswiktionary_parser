@@ -1,0 +1,10 @@
+== {{lengua|es}} ==
+{{pron-graf|fone=ˈbe.a.se}}
+
+=== Forma verbal ===
+
+;1: {{forma verbo|verse|p=usted|t=imperativo|afirmativo=s|enclítico=s|pencl=se}}.
+{{uso}} se emplea también como imperativo impersonal de ''[[ver]]''. Para el negativo se emplea el presente del [[subjuntivo]]: «no se ''vea''».
+
+== Referencias y notas ==
+&lt;references /&gt;

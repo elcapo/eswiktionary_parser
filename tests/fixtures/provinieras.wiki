@@ -1,0 +1,8 @@
+== {{lengua|es}} ==
+{{pron-graf|p=provinieres|pnota=[[futuro]] del [[subjuntivo]], desusado|v=provinieses}}
+
+=== Forma verbal ===
+;1: {{forma verbo|provenir|p=2stv|t=imperfecto|m=subjuntivo}}.
+
+== Referencias y notas ==
+&lt;references /&gt;

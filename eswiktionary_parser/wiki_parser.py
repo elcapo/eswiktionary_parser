@@ -222,16 +222,24 @@ def parse_templates(code: Wikicode) -> Wikicode:
             
             if person.startswith("1s") or person == "yo":
                 meaning = "Primera persona del singular"
-            elif person.startswith("2s") or person == "vos" or person == "usted":
-                meaning = "Segunda persona del singular"
+            elif person =="2s" or person == "tú":
+                meaning = "Segunda persona del singular (tú)"
+            elif person == "2sv" or person == "vos":
+                meaning = "Segunda persona del singular (vos)"
+            elif person == "2stv":
+                meaning = "Segunda persona del singular (tú, vos)"
+            elif person == "2su" or person == "usted":
+                meaning = "Segunda persona del singular (usted)"
             elif person.startswith("3s"):
                 meaning = "Tercera persona del singular"
             elif person.startswith("1p") or person == "nosotros":
                 meaning = "Primera persona del plural"
-            elif person.startswith("2p") or person == "vosotros" or person == "ustedes":
-                meaning = "Segunda persona del plural"
-            elif person.startswith("3p"):
-                meaning = "Tercera persona del plural"
+            elif person == "2p" or person == "vosotros":
+                meaning = "Segunda persona del plural (vosotras, vosotros)"
+            elif person == "2pu":
+                meaning = "Segunda persona del plural (ustedes)"
+            elif person == "3p":
+                meaning = "Tercera persona del plural (ellas, ellos), o segunda persona del plural (ustedes)"
             else:
                 meaning = ""
 
