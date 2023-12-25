@@ -46,5 +46,9 @@ def test_process_nouns_acting_as_verbs():
     definitions = read_and_parse_fixture("tests/fixtures/mudanza.wiki")
     assert definitions[0].definition == "Acción o efecto de cambiar, en especial en las ideas o sentimientos."
 
+def test_ignore_non_spanish_definitions():
+    definitions = read_and_parse_fixture("tests/fixtures/nombre.wiki")
+    assert len(definitions) == 4
+
 if __name__ == "__main__":
-    test_process_nouns_acting_as_verbs()
+    test_ignore_non_spanish_definitions()

@@ -1,0 +1,179 @@
+{{desamb|nombré}}
+== {{lengua|es}} ==
+{{pron-graf|audio=LL-Q1321 (spa)-Rodelar-nombre.wav|fone=ˈnom.bɾe}}
+
+=== Etimología ===
+{{etimología|latín vulgar|*nomine}}, y este del clásico ''[[nomen]]''.&lt;ref&gt;{{cita libro |apellidos=Penny |nombre=Ralph John |título=A history of the Spanish language |URL=http://books.google.es/books?id=ZjcrhyQlFa0C&amp;pg=PA121&amp;lpg=PA121&amp;dq=nomen+lumen+nombre+lumbre&amp;source=bl&amp;ots=67WuybvaeI&amp;sig=shQZf3usvd4WPT51_Nr6IWienN8&amp;hl=es&amp;ei=-XJtSs_lIYKsjAfYt4WvCw&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=8 |añoacceso=2009 |mesacceso=julio |edición= 2ª edición|año=2002 |editorial=Cambridge University Press |idioma=inglés |isbn=9780521011846 |páginas= 121|capítulo=3.2 The noun}}&lt;/ref&gt;
+
+==={{sustantivo masculino|es}}===
+{{inflect.es.sust.reg}}
+
+;1: En general, palabra que [[designar|designa]] una [[entidad]] o [[condición]].
+
+;2: Particularmente, la que designa a una entidad en particular y no a una clase de las mismas.
+{{sinónimo|nombre propio}}.
+
+;3 {{Gramática}}: Clase de palabras que pueden servir como el [[sujeto]] de una [[frase]], el complemento de un [[verbo]] o el argumento de una [[preposición]].
+{{sinónimo|sustantivo}}.
+
+;4: [[clave|Clave]] o [[distintivo]] que se da a alguno para permitirle acceso a un lugar o información restringida.
+{{uso|anticuado}}.
+{{sinónimo|contraseña|santo y seña}}.
+
+==Locuciones==
+{{rel-arriba|Locuciones}}
+* [[nombre abstracto]]
+* [[nombre adjetivo]]
+* [[nombre ambiguo]]
+* [[nombre animado]]
+* [[nombre apelativo]]
+* [[nombre artístico]]: el distinto al nombre de pila que se usa en los espectáculos públicos.
+* [[nombre científico]]
+* [[nombre colectivo]]
+* [[nombre comercial]]
+* [[nombre común]]
+* [[nombre común en cuanto al género]]
+* [[nombre concreto]]
+* [[nombre contable]]
+* [[nombre continuo]]
+* [[nombre de fantasía]]
+* [[nombre de guerra]]
+* [[nombre de pila]]
+* [[nombre discontinuo]]
+* [[nombre discreto]]
+* [[nombre epiceno]]
+* [[nombre femenino]]
+* [[nombre genérico]]
+{{rel-centro}}
+* [[nombre inanimado]]
+* [[nombre no contable]]
+* [[nombre numeral]]
+* [[nombre masculino]]
+* [[nombre personal]]
+* [[nombre propio]]
+* [[nombre sustantivo]]: [[sustantivo]], nombre{{-sub|3}}
+* [[nombre vernáculo]]
+* [[nombre vulgar]]
+&lt;br /&gt;
+* [[alcance de nombre]]
+* [[a nombre de]]: en representación de
+* [[buen nombre]]
+* [[cuestión de nombre]]
+* [[en nombre de]]: en representación de
+* [[hacerse un nombre]]: adquirir reputación o fama.
+* [[mal nombre]]
+* [[no tener nombre]]: ser un asunto demasiado vituperable o inaudito.
+* [[por nombre]]
+* [[tener nombre y apellido]]: estar plenamente identificado un asunto en particular.
+{{rel-abajo}}
+
+==Información adicional==
+:*'''Vinculados etimológicamente''': [[nombrar]], [[nombramiento]], [[nómina]], [[nominar]], [[nominación]], [[nominal]], [[nominalizar]], [[nominalización]].
+
+==Véase también==
+* [[Wikcionario:Categorías gramaticales]]
+{{w}}.
+
+==Traducciones==
+{{trad-arriba}}
+{{t+|sq|1|emër|m}}
+{{t+|de|1|Name|m|,|Nomen|n}}
+{{t+|goh|1|namo|m}}
+{{t+|qbt|2|hene}}
+{{t+|an|nome|m}}
+{{t+|hy|1|անուն}} (anun)
+{{t+|ae|1|nāma}} {{t+|az|1|ad}}
+{{t+|br|1|anv|m}}; {{trad|br|anv-kadarn|2}} {{m}}
+{{t+|bg|име}}
+{{t+|ca|1-2|nom|m}}
+{{t+|cs|1-2|jméno|n}}
+{{t+|kw|1|hanow}}
+{{t+|hr|1|ime|n|,|3|imenica|f}}
+{{t+|sl|1|ime|n|,|2|samostalnik|m}}
+{{t+|cu|1|имѩ}} (imyę)
+{{t+|eo|1|nomo}}
+{{t+|eu|1|izen|,|1|deitura}}
+{{t+|fi|nimi}}
+{{t+|fr|1-2|nom|m}}
+{{t+|gd|1|ainm|m}}
+{{t+|cy|1-2|enw|m}}
+{{t+|gl|nome|m}}
+{{trad-centro}}
+{{t+|el|1|όνομα|,|2|ουσιαστικό}}
+{{t+|haw|?|inoa}}
+{{t+|en|1|name|,|2|noun}}
+{{t+|ang|1|nama|m}}
+{{t+|ga|1|ainm|m}}
+{{t+|sga|1|ainm|m}}
+{{t+|is|1|nafn}}
+{{t+|it|1|nome|,|2|sostantivo}}
+{{t+|ja|1-2|名前|tr=namae}}
+{{t+|la|nomen}}
+{{t+|mt|?|isem}}
+{{t+|cmn|2|名字|tr=míngzi}}
+{{t+|arn|2|üy}}
+{{t+|yua|1-2|kʼaabaʼ}}
+{{t+|nl|1|naam|m|,|2|naamwoord|n}}
+{{t+|oc|1|nom|m}}
+{{t+|fa|1|نام|,|اسم}}
+{{t+|pt|nome|,|fama|,|reputação}}
+{{t+|prg|1|emnes|m}}
+{{t+|rm|1|nom}}
+{{t+|xto|1|ñom}}
+{{t+|txb|2|ñem}}
+{{t+|xum|1|nome}}
+{{trad-abajo}}
+
+{{ES|num=2}}
+
+{{etimología2|de ''[[nombrar]]''}}.
+
+===Forma verbal===
+
+;1: {{forma verbo|nombrar|p=1s|t=presente|m=subjuntivo}}.
+
+;2: {{forma verbo|nombrar|p=3s|t=presente|m=subjuntivo}}.
+
+;3: {{forma verbo|nombrar|p=usted|m=imperativo}}.
+{{anotación|tit=||nota1=||nota2=}}
+
+{{CA-ES}}
+
+{{pronunciación|leng=ca}}
+{{etimología|la|numerus|leng=ca}}
+
+==={{sustantivo masculino|ca}}===
+{{inflect.sust.sg-pl|leng=ca|link=s|nombre|nombres}}
+
+;1: [[número|Número]].
+
+{{FR-ES||1}}
+
+{{pronunciación|[ nɔ̃bʁ̩ ]}}
+:*{{audio|Fr-nombre.ogg|Audio(Francia)}}
+{{etimología|leng=fr|la|numerus}}.
+
+==={{sustantivo masculino|fr}}===
+{{inflect.fr.sust.reg|nombre|nombres}}
+
+;1: [[número|Número]] (especialmente en {{Gramática|leng=fr}} y {{Matemáticas|leng=fr}}).
+;2: [[multitud|Multitud]] (cantidad indeterminada).
+
+{{FR-ES|num=2}}
+
+{{etimología2|de {{l+|fr|nombrer}}}}.
+
+===Forma verbal===
+
+;1: {{forma verbo|nombrer|1s|pres|ind|leng=fr|pron=[[je]]}}.
+
+;2: {{forma verbo|nombrer|3s|pres|ind|leng=fr|nopron=s}}.
+
+;3: {{forma verbo|nombrer|1s|pres|subj|leng=fr|nopron=s}}.
+
+;4: {{forma verbo|nombrer|3s|pres|subj|leng=fr|nopron=s}}.
+
+;5: {{forma verbo|nombrer|2s|imperativo|leng=fr|nopron=s}}.
+
+=&lt;small&gt;Referencias y notas&lt;/small&gt;=
+&lt;references /&gt;

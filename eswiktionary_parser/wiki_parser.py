@@ -16,11 +16,11 @@ def get_definitions(code: Wikicode) -> list:
         flat = True,
         include_headings = True,
     ):
-        if section_is_ignorable(section):
-            continue
-
         if is_not_spanish(section):
             return definitions
+        
+        if section_is_ignorable(section):
+            continue
 
         classification = classify_section(section)
 
@@ -58,6 +58,8 @@ def section_is_ignorable(section: str) -> bool:
 
 def is_not_spanish(section: str) -> bool:
     if "{{lengua|" in section and not "{{lengua|es}}" in section:
+        return True
+    if not re.search(r'.*{{[A-Z][A-Z]-ES.*', str(section)) == None:
         return True
     return False
 
