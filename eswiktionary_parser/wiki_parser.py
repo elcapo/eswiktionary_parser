@@ -127,51 +127,60 @@ def parse_templates(code: Wikicode) -> Wikicode:
     if not code:
         return
     for template in code.filter_templates():
-        if template.name.startswith("inflect"):
+        # Handle cases where the template name is followed by a line break
+        # Example: {{ejemplo\n
+        if  template.name.startswith("adjetivo") or \
+            template.name.startswith("desambiguación") or \
+            template.name.startswith("ejemplo") or \
+            template.name.startswith("glotónimos") or \
+            template.name.startswith("inflect") or \
+            template.name.startswith("lengua") or \
+            template.name.startswith("países") or \
+            template.name.startswith("pron-graf") or \
+            template.name.startswith("relacionado") or \
+            template.name.startswith("sustantivo"):
+            # Remove
             safe_remove(code, template)
+            continue
         
-        if template.name.startswith("sustantivo"):
-            safe_remove(code, template)
-        
-        if template.name.startswith("pron-graf"):
-            safe_remove(code, template)
-        
-        if template.name in ["lengua", "desambiguación", "glotónimos", "adjetivo", "relacionado"]:
-            safe_remove(code, template)
-        
-        if template.name in ["países"]:
-            safe_remove(code, template)
-
         if template.name == "plm":
             param = template.get(1) if len(template.params) else ''
             safe_replace(code, template, param)
+            continue
         
         if template.name == "l" or template.name == "l+":
             safe_replace(code, template, template.get(2))
+            continue
 
         if template.name == "impropia":
             safe_replace(code, template, template.get(1))
+            continue
 
         if template.name == "antropónimo masculino":
             safe_replace(code, template, "Nombre de pila de varón")
+            continue
 
         if template.name == "antropónimo femenino":
             safe_replace(code, template, "Nombre de pila de mujer")
+            continue
         
         if template.name == "gentilicio":
             origin = parse_templates(parse(str(template.get(1))))
             meaning = "Originario, relativo a, o propio de {}".format(origin)
             safe_replace(code, template, meaning)
+            continue
         
         if template.name == "gentilicio2":
             origin = parse_templates(parse(str(template.get(1))))
             meaning = "Persona originaria de {}".format(origin)
             safe_replace(code, template, meaning)
+            continue
         
         if template.name == "sustantivo de verbo":
             verb = template.get(1)
             meaning = "Acción o efecto de {}".format(verb)
             safe_replace(code, template, meaning)
+            continue
 
         if template.name == "forma verbo":
             if template.has("p"):
@@ -232,6 +241,7 @@ def parse_templates(code: Wikicode) -> Wikicode:
                         mode,
                         template.get(1)))
             safe_replace(code, template, meaning)
+            continue
 
     return code
 
