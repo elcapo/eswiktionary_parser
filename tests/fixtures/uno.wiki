@@ -1,0 +1,319 @@
+{{desambiguación|-uno|Ununoo|UNO|ùno|ünő}}
+
+=={{lengua|es}}==
+
+{{pron-graf
+|fone=ˈu.no
+|h=huno
+|s=1|s2=I|s3=i|audio=LL-Q1321 (spa)-Rodelar-uno.wav}}
+
+===Etimología===
+{{etimología|osp|uno|uno}}, y este {{etim|la|unus|alt=ūnum|glosa=uno}}, {{etim|itc-ola|oinos|glosa=uno}}, {{etim|itc|*oinos}}, {{etim|ine|*óinos|ine=x}}.
+
+==={{adverbio|es|cardinal}}===
+
+;1 {{números}}: La cantidad de una cosa solitaria (a saber, sin otros).
+
+==={{sustantivo masculino|es}}===
+{{inflect.es.sust.reg}}
+
+;2: {{plm|primer}} [[número]] [[natural]], equivalente a la cantidad del [[conjunto]] no [[vacío]] más pequeño posible.
+
+;3: {{plm|signo}} [[matemático]] que representa la [[unidad]].
+:*'''Ejemplo:''' en números romanos el número ''uno'' es representado por &quot;'''I'''&quot; y en números árabes por &quot;'''1'''&quot;.
+
+;4: Nombre del número '''1'''.
+
+;5: Individuo. &lt;ref&gt;{{DRAE|uno}}&lt;/ref&gt;
+
+;6: Cierto juego de salón.
+{{uso|Se escribe de preferencia con mayúscula inicial}}.
+
+==={{adjetivo|es}}===
+{{inflect.es.adj.reg|un}}
+
+;7: Que no se encuentra [[dividido]] o [[separado]].
+{{uso|Con este significado, no tiene plural}}.
+{{sinónimo|cabal|entero|indiviso|íntegro}}.
+
+;8: Que no posee [[igual]].
+{{sinónimo|único}}, sin [[par]]
+
+;9: Que se identifica con otra persona o cosa en un plano espiritual, moral o que se siente físicamente unido.
+
+;10: Que no posee diferencias con otra cosa.
+{{sinónimo|igual|idéntico}}.
+
+;11: Usado con la palabra ''[[otro]]'', tiene valor distributivo.
+:*'''Ejemplo:''' el ''uno'' caminaba, el ''otro'' corría.
+
+;12: '''Unos''': Cantidad aproximada o imprecisa.
+{{sinónimo|más|menos|aproximadamente|alrededor de}}.
+:*'''Ejemplo:''' traeré ''unas'' decenas de huevos de campo.
+
+;13: '''Unos''': Que no se sabe la cantidad, cantidad indeterminada y pequeña.
+{{sinónimo|algunos}}.
+:*'''Ejemplo:''' ''unos'' días antes había florecido la canela.
+
+=== {{pronombre indefinido|es}} ===
+{{inflect.es.adj.reg|un}}
+
+;14: Palabra que hace referencia a una persona de identidad desconocida, indefinida o irrelevante.
+*'''Ejemplo:''' ''uno'' sabe lo que debe hacer.
+
+===Forma verbal===
+
+;15: {{f.v|unir|p=1s|t=pres|m=ind}}.
+
+===Locuciones===
+{{rel-arriba}}
+*[[a una]]: juntos, a un mismo tiempo
+*[[cada uno]]: todos, considerados individualmente.
+*[[decir unas veces cesta y otras ballesta]]: Contradecirse en unas y otras ocasiones.
+*[[del uno]]: excelente, de primera. (Chile, coloquial)
+*[[de so uno]]: unidamente (Anticuado)
+*[[de una]]: 
+::De golpe, con un solo esfuerzo o intento.
+::De forma definitiva.
+::Resueltamente, con decisión.
+*[[de una en una]]: considerando las personas o cosas individualmente, separadamente.
+*[[de una vez]]:
+::De golpe, con un solo esfuerzo o intento.
+::De forma definitiva.
+::Resueltamente, con decisión.
+::Excelente, de primera (España, coloquial)
+::De inmediato (República Dominicana)
+*[[de una vez para siempre]]: de forma definitiva.
+*[[en uno]]:
+::En conjunto
+::De común acuerdo, unidamente.
+*[[la una]]: la primera hora después del mediodía y la primera después de la medianoche.
+*[[lo uno por lo otro]]: en compensación.
+*[[más de uno]]: varios.
+*[[no acertar una]]: fallar en todos los intentos, equivocarse mucho.
+*[[no achuntarle a una]]: fallar en todos los intentos, equivocarse mucho. (Chile, coloquial)
+*[[no dar una]]: fallar en todos los intentos, equivocarse mucho.
+{{rel-centro}}
+*[[número uno]]: el mejor en una disciplina, deporte u otra actividad.
+*[[para en uno]]: para estar satisfechos y unidos en la vida (España)
+*[[para en uno son los dos]]: expresión de parabienes a los novios. (España)
+*[[ser todo uno]]:
+::Ocurrir varias cosas en una secuencia que parece simultánea o una sola.
+::Ser varias cosas un resultado forzoso o consecuencia unas de otras.
+*[[ser uno]]: ser todo uno.
+*[[una de]] + sustantivo: gran cantidad de.
+*[[una de dos]]: expresa una disyuntiva. Se usa en expresiones de advertencia o amenaza principalmente.
+*[[una de las suyas]]: se dice de lo típico de alguien.
+*[[una no es ninguna]]: no basta con una.
+*[[una por una]]: efectivamente.
+*[[una que]]: siendo así que, suponiendo que.
+*[[una que otra vez]]: rara vez.
+*escribir [[unas letras]]: escribir unas pocas palabras, una carta o escrito breve.
+*[[una vez que otra]]: rara vez.
+*[[una y no más]]: expresión de haber escarmentado
+*[[uno a otro]] (otra): De forma recíproca.
+*[[uno con otro]] (otra): En conjunto se compensan defectos y virtudes, ventajas y desventajas.
+*[[uno a uno]]: Considerando las personas o cosas individualmente, separadamente.
+*[[uno de tantos]]: Que no se destaca.
+*[[uno no es ninguno]]
+*[[uno por uno]]: Considerando las personas o cosas individualmente, separadamente.
+*[[uno que otro]] (o una que otra): Algunos.
+*[[unos cuantos]] (o unas cuantas): Un número pequeño de ellos.
+*[[uno tras otro]] (o una tras otra): De forma sucesiva.
+*[[uno y otro]] (uno y otra, una y otra): Los dos, [[ambos]].
+{{rel-abajo}}
+
+===Véase también===
+{{w}}
+* [[un]]
+
+===Información adicional===
+*Delante de un sustantivo masculino singular, se usa el apócope [[un]].
+:*'''Ejemplo:''' ''Un'' momento. (Y no: ''uno momento'')
+
+===Traducciones===
+{{trad-arriba}}
+{{t+|ay|maya}}
+{{t+|de|1-4|ein}}
+{{t+|ar|واحد}}
+{{t+|br|1|unan}}
+{{t+|bg|един|m}}
+{{t+|cak|1|jun}}
+{{t+|ca|un}}
+{{t+|cs|1-3|jeden|,|10,11|kterýsi|,|12|někdo|,|11,12|kdterýkoli}} ''(cosa)'', {{trad|cs|kdokoli|11,12}} ''(persona)'', {{trad|cs|několik|11,12}}, {{trad|cs|pár|11,12}}, {{trad|cs|trochu|11,12}}, {{trad|cs|asi|11}}, {{trad|cs|navzájem|9}}, {{trad|cs|sám}} ''(uno mismo)'', {{trad|cs|sebe}} ''(uno mismo)''
+{{t+|ctu|jump'ej}}
+{{t+|hr|1|jedan}}
+{{t+|dv|ekeh}}
+{{t+|eo|1-4,11|unu|5|iu|13|kelkaj|14|oni}}
+{{t+|eu|bat}}
+{{t+|fi|yksi}}
+{{t+|fr|1,3|un|,|5|on}}
+{{t+|ha|ɗaya}}
+{{t+|io|un}}
+{{t+|en|1-4,14|one|13|some}}
+{{t+|ga|1-3,10,11|aon|,|1|amháin}} ''adj'', {{trad|ga|duine|4}}, {{trad|ga|ceann|4}}
+{{t+|it|uno}}
+{{t+|ja|一|,|いち}} ([[ichi]]), {{trad|ja|ひとつ}} ([[hitotsu]])
+{{t+|ku|yek}}
+{{t+|zh|1,3|一|,|壹|}}(yī)
+{{t+|arn|kiñe}}
+{{t+|yua|jun}}
+{{t+|mit|ɨɨn}}
+{{trad-centro}}
+{{t+|mn|нэг}}
+{{t+|nhn|1|ce|nota|Amecameca, Cholula y Milpa Alta|,|ze|nota|Texcoco|,|se|nota|Tlaxcala}}
+{{t+|nci|1|ce|nota|normalizado}}
+{{t+|ngu|se}}
+{{t+|nch|se}}
+{{t+|nhw|se}}
+{{t+|nhe|se}}
+{{t+|ncl|se}}
+{{t+|nhm|se}}
+{{t+|nlv|se}}
+{{t+|nhp|1|se}}
+{{t+|nhc|se}}
+{{t+|ncj|1|se|nota|Acaxochitlán}}
+{{t+|nv|láá'ii}}
+{{t+|nl|een}}
+{{t+|no|én}}
+{{t+|nn|ein}}
+{{t+|fa|یک|tr=[[yek#Transliteración del persa|yek]]}}
+{{t+|ppl|se}}
+{{t+|pt|uno}}
+{{t+|quz|huk}}
+{{t+|qwh|huk}}
+{{t+|rhg|ek}}
+{{t+|ru|1-4|один}}
+{{t+|sa|?|एक}}
+{{t+|tl|isa}}
+{{t+|crh|bir}}
+{{t+|yag|1,2|okóle}}
+{{trad-abajo}}
+
+[[Categoría:ES:Lista Swadesh]]
+
+=={{lengua|ast}}==
+
+{{pron-graf|leng=ast}}
+
+===Forma adjetiva===
+
+;1: {{f.adj2|leng=ast|un|n|s}}.
+
+=={{lengua|osp}}==
+
+{{pron-graf|leng=osp}}
+
+===Etimología===
+{{etimología|leng=osp|la|unus|alt=ūnum|uno}}, y este {{etim|leng=osp|itc-ola|oinos|glosa=uno}}, {{etim|leng=osp|itc|*oinos}}, {{etim|leng=osp|ine|*óynos|ine=x}}. Compárese el galaicoportugués {{l+|roa-opt|ũu}} y el italiano antiguo {{l+|roa-oit|uno}}.
+
+==={{adjetivo|osp|cardinal}}===
+
+;1 {{números|leng=osp}}: {{plm}}.
+
+=={{lengua|it}}==
+
+{{pron-graf|leng=it
+|fone=ˈuno|audio=it-uno.ogg}}
+
+===Etimología===
+{{etimología|leng=it|roa-oit|uno|uno}}, y este {{etim|leng=it|la|unus|alt=ūnum|glosa=uno}}, {{etim|leng=it|itc-ola|oinos|glosa=uno}}, {{etim|leng=it|itc|*oino-}}, {{etim|leng=it|ine|*óynos|ine=x}}.
+
+==={{adjetivo cardinal|it}}===
+{{inflect.it.adj.reg|un}}
+
+[[Categoría:IT:Lista Swadesh]]
+
+;1 {{números|leng=it}}: {{ucf}}.
+{{relacionado|leng=it|primo|singolo}}.
+
+==={{artículo|it|indefinido}}===
+{{inflect.it.sust.sg-pl|un|una|link=s}}
+
+;2: {{impropia|Forma de}} {{l|it|un}} ''antes de &quot;s impura&quot; (la que va seguida de consonante).''
+
+==={{pronombre|it|indefinido}}===
+
+;3: {{ucf}} ''(referencia a persona de identidad desconocida, indefinida o irrelevante)''.
+
+===Información adicional===
+{{anagrama|leng=it|ONU}}.
+
+===Véase también===
+{{w|leng=it}}.
+
+=={{lengua|roa-oit}}==
+
+{{pron-graf|leng=roa-oit}}
+
+===Etimología===
+{{etimología|leng=roa-oit|la|unus|alt=ūnum|uno}}, y este {{etim|leng=roa-oit|itc-ola|oinos|glosa=uno}}, {{etim|leng=roa-oit|itc|*oino-}}, {{etim|leng=roa-oit|ine|*óynos|ine=x}}. Compárese el castellano antiguo {{l+|osp|uno}} y el italiano antiguo {{l+|roa-oit|uno}}.
+
+==={{adjetivo|roa-oit|cardinal}}===
+
+;1 {{números|leng=roa-oit}}: {{plm}}.
+
+=={{lengua|lad}}==
+
+{{pron-graf|leng=lad
+|g=אונו}}
+
+===Etimología===
+{{etimología|leng=lad|osp|uno|uno}}, y este {{etim|leng=lad|la|unus|alt=ūnum|glosa=uno}}, {{etim|leng=lad|itc-ola|oinos|glosa=uno}}, {{etim|leng=lad|itc|*oino-}}, {{etim|leng=lad|ine|*Hoi-no-|ine=x}}.
+
+==={{adjetivo|lad|cardinal}}===
+
+;1 {{números|leng=lad}}: {{plm}}.
+
+=={{lengua|la}}==
+
+{{pron-graf|alt=ūnō|leng=la
+|fone=ˈuː.noː}}
+
+===Forma adjetiva===
+
+;1: {{forma adjetivo|leng=la|unus|ablativo|singular|masculino}}.
+
+;2: {{forma adjetivo|leng=la|unus|ablativo|singular|neutro}}.
+
+=={{lengua|roa-oan}}==
+
+{{pron-graf|leng=roa-oan}}
+
+===Etimología===
+{{etimología|leng=roa-oan|la|unus|alt=ūnum|uno}}, y este {{etim|leng=roa-oan|itc-ola|oinos|glosa=uno}}, {{etim|leng=roa-oan|itc|*oino-}}, {{etim|leng=roa-oan|ine|*Hoi-no-|ine=x}}.
+
+==={{adjetivo|roa-oan|cardinal}}===
+
+;1 {{números|leng=roa-oan}}: {{plm}}.
+
+=={{lengua|pt}}==
+
+{{pron-graf|fone='u.nu}}
+
+===Etimología===
+{{etimología|leng=pt}}.
+
+==={{adjetivo|pt}}===
+{{inflect.pt.adj.reg|un}}
+
+;1: {{plm|único}}.
+{{sinónimo|leng=pt|único}}.
+
+===Forma verbal===
+
+;2: {{f.v|leng=pt|unir|1s|pres|ind|pron=eu}}.
+
+=={{lengua|vec}}==
+
+{{pron-graf|leng=vec}}
+
+===Etimología===
+{{etimología|leng=vec|la|unus|alt=ūnum|uno}}, y este {{etim|leng=vec|itc-ola|oinos|glosa=uno}}, {{etim|leng=vec|itc|*oino-}}, {{etim|leng=vec|ine|*Hoi-no-|ine=x}}.
+
+==={{adjetivo|vec|cardinal}}===
+
+;1 {{números|leng=vec}}: {{plm}}.
+
+== Referencias y notas ==
+&lt;references /&gt;

@@ -136,7 +136,7 @@ def parse_templates(code: Wikicode) -> Wikicode:
         if template.name.startswith("pron-graf"):
             safe_remove(code, template)
         
-        if template.name in ["lengua", "desambiguación", "glotónimos", "sinónimo", "adjetivo", "relacionado"]:
+        if template.name in ["lengua", "desambiguación", "glotónimos", "adjetivo", "relacionado"]:
             safe_remove(code, template)
         
         if template.name in ["países"]:
@@ -257,7 +257,6 @@ def process_links(code: Wikicode) -> Wikicode:
 
 def stringify_and_clean(code: Wikicode) -> str:
     stringified = str(code)
-    # stringified = remove_bullet_points(stringified)
     stringified = remove_leading_numbers(stringified)
     stringified = remove_examples(stringified)
     stringified = remove_references(stringified)
@@ -279,14 +278,11 @@ def extract_definitions(stringified: str) -> list:
 def contains_letters(string: str) -> bool:
     return re.search("[a-z]{2,}", str(string)) != None
 
-#def remove_bullet_points(string: str) -> str:
-#    return re.sub(r'^(:\*|::\*|{{uso|::¡|{{ejemplo| *\().*\n?', '', string, flags = re.MULTILINE)
-
 def remove_leading_numbers(definition: str) -> str:
     return re.sub(r'^\d+\s*', '', definition, flags = re.MULTILINE)
 
 def remove_examples(definition: str) -> str:
-    return re.sub(r'^("|:|&quot;|{{uso|{{ejemplo).*\n', '', definition, flags = re.MULTILINE)
+    return re.sub(r'^("|:|&quot;|{{uso|{{ejemplo|{{sinónimo).*\n', '', definition, flags = re.MULTILINE)
 
 def remove_references(definition: str) -> str:
     definition = re.sub(r'(?<=&lt;ref&gt;)(.*?)(?=&lt;\/ref&gt;)', '', definition, flags = re.MULTILINE)
