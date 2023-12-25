@@ -25,12 +25,15 @@ def ensure_finishes_with_dot(definition: str) -> str:
     return definition
 
 def remove_unwanted_prefixes(definition: str) -> str:
-    by_extension = "Por extensión, "
-    if definition.startswith(by_extension):
-        return definition[len(by_extension):]
-    figure = "Fig. "
-    if definition.startswith(figure):
-        return definition[len(figure):]
+    definition = remove_unwanted_prefix(definition, "Por extensión, ")
+    definition = remove_unwanted_prefix(definition, "Fig. ")
+    definition = remove_unwanted_prefix(definition, "En especial, ")
+    definition = remove_unwanted_prefix(definition, "Por analogía, ")
+    return definition
+
+def remove_unwanted_prefix(definition: str, prefix: str) -> str:
+    if definition.startswith(prefix):
+        return definition[len(prefix):]
     return definition
 
 def remove_leading_parenthesis(definition: str) -> str:

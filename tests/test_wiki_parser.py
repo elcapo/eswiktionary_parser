@@ -18,6 +18,11 @@ def test_removes_unwanted_prefixes():
     # Remove the prefix "Fig."
     definitions = read_and_parse_fixture("tests/fixtures/elemental.wiki")
     assert definitions[1].definition == "Primordial, fundamental."
+    # Remove the prefix "Por analogía, "
+    definitions = read_and_parse_fixture("tests/fixtures/beber.wiki")
+    assert definitions[4].definition == "Adoptar ideas o información de una fuente."
+    # Remove the prefix "En especial "
+    assert definitions[1].definition == "Beber bebidas alcohólicas."
 
 def test_ignores_synonyms():
     definitions = read_and_parse_fixture("tests/fixtures/uno.wiki")
@@ -72,4 +77,4 @@ def test_exclude_references_to_scopes():
     assert len(definitions) == 3
 
 if __name__ == "__main__":
-    test_exclude_references_to_scopes()
+    test_removes_unwanted_prefixes()
