@@ -225,9 +225,11 @@ def parse_templates(code: Wikicode) -> Wikicode:
 
             if time == "pret imp":
                 time = "pretérito imperfecto"
+            elif time == "pret ind":
+                time = "pretérito perfecto simple"
 
             if person and mode and time:
-                meaning += " del {} {} de {}".format(
+                meaning += " del {} de {} de {}".format(
                     time,
                     mode,
                     template.get(1))

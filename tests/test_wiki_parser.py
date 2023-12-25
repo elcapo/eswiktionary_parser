@@ -28,5 +28,9 @@ def test_removes_leading_parenthesis():
     definitions = read_and_parse_fixture("tests/fixtures/té.wiki")
     assert definitions[0].definition.startswith("Arbusto de la famila de las cameliáceas, originario de Assam y de Bengala.")
 
+def test_processes_past_simple_templates():
+    definitions = read_and_parse_fixture("tests/fixtures/pasasteis.wiki")
+    assert definitions[0].definition == "Segunda persona del plural del pretérito perfecto simple de indicativo de pasar."
+
 if __name__ == "__main__":
-    test_removes_leading_parenthesis()
+    test_processes_past_simple_templates()
