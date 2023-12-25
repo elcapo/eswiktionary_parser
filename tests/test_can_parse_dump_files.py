@@ -14,6 +14,3 @@ def test_remove_references():
     # Example: <ref name="novísimo">...</ref>
     for page in pages_iterator("tests/fixtures/traducción.xml"):
         assert page.definitions[2].definition == "Figura retórica de que se usa, reptiendo una palabra en diversos sentidos."
-
-if __name__ == "__main__":
-    test_remove_references()

@@ -1,9 +1,0 @@
-== {{lengua|es}} ==
-{{pron-graf}}
-
-=== Forma verbal ===
-
-;1: {{forma verbo|pasar|p=2p|t=pret ind|m=indicativo}}.
-
-== Referencias y notas ==
-&lt;references /&gt;
