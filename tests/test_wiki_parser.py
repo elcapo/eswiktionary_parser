@@ -23,5 +23,3 @@ def test_ignores_synonyms():
     definitions = read_and_parse_fixture("tests/fixtures/uno.wiki")
     assert definitions[6].definition == "Que no posee igual."
     assert definitions[7].definition == "Que se identifica con otra persona o cosa en un plano espiritual, moral o que se siente físicamente unido."
-
-test_ignores_examples()
