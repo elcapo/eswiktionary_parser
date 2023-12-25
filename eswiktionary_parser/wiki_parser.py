@@ -109,6 +109,7 @@ def safe_remove(code: Wikicode, template: Template):
 
 def safe_replace(code: Wikicode, template: Template, value):
     try:
+        value = safe_process(str(value))
         code.replace(template, value)
     except:
         pass
@@ -120,6 +121,13 @@ def safe_strip_html(text: str) -> str:
     except:
         pass
     return str(stripped)
+
+def safe_process(value: str) -> str:
+    try:
+        value = process(parse(value))
+    except:
+        value = ""
+    return value
 
 def process(code: Wikicode) -> Wikicode:
     code = parse_templates(code)
