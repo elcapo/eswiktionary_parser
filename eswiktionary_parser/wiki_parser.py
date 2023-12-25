@@ -139,7 +139,6 @@ def parse_templates(code: Wikicode) -> Wikicode:
             template.name.startswith("pron-graf") or \
             template.name.startswith("relacionado") or \
             template.name.startswith("sustantivo"):
-            # Remove
             safe_remove(code, template)
             continue
         
