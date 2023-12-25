@@ -34,7 +34,8 @@ def get_definitions(code: Wikicode) -> list:
         if len(found) == 0:
             continue
 
-        definitions += [Definition(definition, classification) for definition in found]
+        for definition in found:
+            definitions.append(Definition(definition, classification))
 
     return definitions
 
@@ -137,7 +138,6 @@ def parse_templates(code: Wikicode) -> Wikicode:
             template.name.startswith("lengua") or \
             template.name.startswith("países") or \
             template.name.startswith("pron-graf") or \
-            template.name.startswith("relacionado") or \
             template.name.startswith("sustantivo"):
             safe_remove(code, template)
             continue
@@ -301,7 +301,7 @@ def remove_leading_numbers(definition: str) -> str:
     return re.sub(r'^\d+\s*', '', definition, flags = re.MULTILINE)
 
 def remove_examples(definition: str) -> str:
-    return re.sub(r'^("|:|&quot;|{{uso|{{ejemplo|{{sinónimo).*\n', '', definition, flags = re.MULTILINE)
+    return re.sub(r'^("|:|&quot;|{{uso|{{ejemplo|{{sinónimo|{{relacionado).*\n', '', definition, flags = re.MULTILINE)
 
 def remove_references(definition: str) -> str:
     definition = re.sub(r'(?<=&lt;ref&gt;)(.*?)(?=&lt;\/ref&gt;)', '', definition, flags = re.MULTILINE)

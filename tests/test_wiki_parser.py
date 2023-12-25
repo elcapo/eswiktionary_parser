@@ -37,5 +37,10 @@ def test_removes_images():
     assert len(definitions) == 1
     assert definitions[0].definition == "Prenda de vestir que se usa para cubrir y proteger el pie."
 
+def test_removes_related_data():
+    definitions = read_and_parse_fixture("tests/fixtures/francia.wiki")
+    assert len(definitions) == 2
+    assert definitions[1].definition == "Nombre de pila de mujer."
+
 if __name__ == "__main__":
-    test_removes_images()
+    test_removes_related_data()
