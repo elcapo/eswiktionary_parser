@@ -146,6 +146,11 @@ def parse_templates(code: Wikicode) -> Wikicode:
             param = template.get(1) if len(template.params) else ''
             safe_replace(code, template, param)
             continue
+
+        if template.name == "ucf":
+            param = template.get(1) if len(template.params) else ''
+            safe_replace(code, template, param)
+            continue
         
         if template.name == "l" or template.name == "l+":
             safe_replace(code, template, template.get(2))
@@ -235,10 +240,9 @@ def parse_templates(code: Wikicode) -> Wikicode:
                     mode,
                     template.get(1))
             else:
-                meaning = capitalize_first_letter(
-                    "{} de {}".format(
+                meaning = "{} de {}".format(
                         mode,
-                        template.get(1)))
+                        template.get(1))
             safe_replace(code, template, meaning)
             continue
 
@@ -280,7 +284,6 @@ def extract_definitions(stringified: str) -> list:
         if not contains_letters(definition):
             continue
         definition = remove_leading_numbers(definition)
-        definition = capitalize_first_letter(definition)
         definitions.append(definition)
     return definitions
 

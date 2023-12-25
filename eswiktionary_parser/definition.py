@@ -1,3 +1,5 @@
+import re
+
 class Definition:
     def __init__(self, definition: str, classification: str):
         self.definition = polish(definition)
@@ -8,7 +10,9 @@ class Definition:
 
 def polish(definition: str) -> str:
     definition = ensure_finishes_with_dot(definition)
-    return remove_unwanted_prefixes(definition)
+    definition = remove_unwanted_prefixes(definition)
+    definition = remove_leading_parenthesis(definition)
+    return capitalize_first_letter(definition)
 
 def ensure_finishes_with_dot(definition: str) -> str:
     definition = definition.strip()
@@ -23,8 +27,16 @@ def ensure_finishes_with_dot(definition: str) -> str:
 def remove_unwanted_prefixes(definition: str) -> str:
     by_extension = "Por extensión, "
     if definition.startswith(by_extension):
-        return definition[len(by_extension):].capitalize()
+        return definition[len(by_extension):]
     figure = "Fig. "
     if definition.startswith(figure):
-        return definition[len(figure):].capitalize()
+        return definition[len(figure):]
     return definition
+
+def remove_leading_parenthesis(definition: str) -> str:
+    return re.sub(r'^\(.*\)', '', definition).strip()
+
+def capitalize_first_letter(definition: str) -> str:
+    if len(definition) < 2:
+        return definition
+    return definition[0].capitalize() + definition[1:]

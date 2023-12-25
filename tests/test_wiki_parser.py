@@ -23,3 +23,10 @@ def test_ignores_synonyms():
     definitions = read_and_parse_fixture("tests/fixtures/uno.wiki")
     assert definitions[6].definition == "Que no posee igual."
     assert definitions[7].definition == "Que se identifica con otra persona o cosa en un plano espiritual, moral o que se siente físicamente unido."
+
+def test_removes_leading_parenthesis():
+    definitions = read_and_parse_fixture("tests/fixtures/té.wiki")
+    assert definitions[0].definition.startswith("Arbusto de la famila de las cameliáceas, originario de Assam y de Bengala.")
+
+if __name__ == "__main__":
+    test_removes_leading_parenthesis()
