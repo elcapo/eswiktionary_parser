@@ -143,13 +143,17 @@ def parse_templates(code: Wikicode) -> Wikicode:
             continue
         
         if template.name == "plm":
-            param = template.get(1) if len(template.params) else ''
-            safe_replace(code, template, param)
+            if template.has(1):
+                safe_replace(code, template, template.get(1))
+            else:
+                safe_remove(code, template)
             continue
 
         if template.name == "ucf":
-            param = template.get(1) if len(template.params) else ''
-            safe_replace(code, template, param)
+            if template.has(1):
+                safe_replace(code, template, template.get(1))
+            else:
+                safe_remove(code, template)
             continue
         
         if template.name == "l" or template.name == "l+":
