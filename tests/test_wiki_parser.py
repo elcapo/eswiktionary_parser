@@ -32,5 +32,9 @@ def test_processes_past_simple_templates():
     definitions = read_and_parse_fixture("tests/fixtures/pasasteis.wiki")
     assert definitions[0].definition == "Segunda persona del plural del pretérito perfecto simple de indicativo de pasar."
 
+def test_removes_images():
+    definitions = read_and_parse_fixture("tests/fixtures/calzado.wiki")
+    print(definitions)
+
 if __name__ == "__main__":
-    test_processes_past_simple_templates()
+    test_removes_images()

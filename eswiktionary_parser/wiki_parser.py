@@ -265,10 +265,11 @@ def process_links(code: Wikicode) -> Wikicode:
     if not code:
         return
     for wikilink in code.filter_wikilinks():
-        if wikilink.title.startswith('Archivo:'):
+        if  wikilink.title.startswith('Archivo:') or \
+            wikilink.title.startswith('Categoría:') or \
+            wikilink.title.startswith('Image:'):
             safe_remove(code, wikilink)
-        if wikilink.title.startswith('Categoría:'):
-            safe_remove(code, wikilink)
+            continue
         if wikilink.title.startswith('Wikipedia:'):
             if wikilink.text:
                 safe_replace(code, wikilink, wikilink.text)

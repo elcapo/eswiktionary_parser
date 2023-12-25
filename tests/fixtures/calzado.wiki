@@ -1,0 +1,65 @@
+== {{lengua|es}} ==
+{{pron-graf| kalˈθa.ðo }}
+
+=== Etimología ===
+{{etimología|osp|calçado}}, de {{l+|osp|calçar}}, del latín {{l+|la|calceare|glosa=calzar}}
+
+===={{sustantivo masculino|es}}====
+[[Image:Ballerinas (Weiss).jpg|thumb|zapatillas de bailar [1]]]
+{{inflect.es.sust.reg}}
+
+;1 {{Vestimenta}}: [[prenda|Prenda]] de [[vestir]] que se usa para cubrir y proteger el [[pie]]
+:*'''Hipónimos:''' [[alpargata]], [[bamba]], [[bota]], [[chancleta]], [[ojota]], [[sandalia]], [[zapatilla]], [[zapato]]
+
+==== Véase también ====
+{{W}}
+
+==== Traducciones ====
+{{trad-arriba}}
+{{t+|ain|ケㇽ|,|ケㇾ}}
+{{t+|af|skoen}}
+{{t+|sq|këpucë}}
+{{t+|de|Schuh}} {{m}}
+{{t+|br|botoù}}
+{{t+|ca|sabata}}
+{{t+|cs|bota}}
+{{t+|hr|cipela}}
+{{t+|da|sko}}
+{{t+|sk|topánka}} {{f}}
+{{t+|sl|čevelj}}
+{{t+|eo|suo}}
+{{t+|et|king}}
+{{t+|eu|oinetako|,|zapata}}
+{{t+|fi|kenkä}}
+{{t+|fr|chaussure|,|soulier}}
+{{t+|fy|skoech}}
+{{t+|cy|esgid}}
+{{t+|gl|zapato}}
+{{t+|hu|cipõ}}
+{{t+|en|shoe}}
+{{trad-centro}}
+{{t+|id|sepatu}}
+{{t+|ga|bróg}}
+{{t+|it|calzatura|,|scarpa}}
+{{t+|is|skór}}
+{{t+|ku|sol}}
+{{t+|la|calceus}}
+{{t+|mt|zarbun}}
+{{t+|nl|schoen|m|,|schoeisel|n}}
+{{t+|no|sko}}
+{{t+|oc|chaussier}}
+{{t+|pap|sapata}}
+{{t+|pl|but}}
+{{t+|pt|sapato}} {{m}}
+{{t+|ro|pantof}}
+{{t+|sv|sko}}
+{{t+|sw|kiatu}}
+{{t+|tr|ayakkabi}}
+{{t+|wa|solé}}
+{{t+|xh|hlangu}} ''kl7''
+{{trad-abajo}}
+
+
+=== Forma flexiva ===
+==== Forma verbal ====
+;1: {{participio|calzar}}.
