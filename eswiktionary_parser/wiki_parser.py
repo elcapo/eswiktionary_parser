@@ -78,6 +78,8 @@ def classify_section(section: str) -> str:
         return "pronombre personal"
     if "{{adjetivo" in section:
         return "adjectivo"
+    if "{{forma adjetivo" in section:
+        return "adjetivo"
     if "{{sustantivo propio" in section:
         return "nombre propio"
     if "{{sustantivo femenino" in section:
@@ -197,6 +199,29 @@ def parse_templates(code: Wikicode) -> Wikicode:
             safe_replace(code, template, meaning)
             continue
         
+        if template.name == "forma adjetivo":
+            if template.has("género"):
+                gender = template.get("género").value
+            else:
+                gender = "masculino"
+
+            if template.has("número"):
+                number = template.get("número").value
+            else:
+                number = "singular"
+            
+            adjective = template.get(1)
+
+            if gender and number:
+                meaning = "Forma del {} {} de {}".format(gender, number, adjective)
+            elif gender and not number:
+                meaning = "Forma del {} de {}".format(gender, adjective)
+            elif number and not gender:
+                meaning = "Forma del {} de {}".format(number, adjective)
+            
+            safe_replace(code, template, meaning)
+            continue
+
         if template.name == "sustantivo de verbo":
             if template.has("glosa"):
                 verb = template.get("glosa").value
