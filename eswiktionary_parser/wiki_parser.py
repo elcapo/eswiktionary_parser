@@ -142,7 +142,6 @@ def parse_templates(code: Wikicode) -> Wikicode:
         # Example: {{ejemplo\n
         if  template.name.startswith("adjetivo") or \
             template.name.startswith("desambiguación") or \
-            template.name.startswith("ejemplo") or \
             template.name.startswith("glotónimos") or \
             template.name.startswith("inflect") or \
             template.name.startswith("lengua") or \
@@ -152,6 +151,10 @@ def parse_templates(code: Wikicode) -> Wikicode:
             safe_remove(code, template)
             continue
         
+        if template.name.startswith("ejemplo"):
+            safe_replace(code, template, ":")
+            continue
+
         if template.name == "plm":
             if template.has(1):
                 safe_replace(code, template, template.get(1))
@@ -325,7 +328,7 @@ def remove_leading_numbers(definition: str) -> str:
     return re.sub(r'^\d+\s*', '', definition, flags = re.MULTILINE)
 
 def remove_examples(definition: str) -> str:
-    return re.sub(r'^("|:|&quot;|{{uso|{{ejemplo|{{sinónimo|{{relacionado|{{ámbito).*\n', '', definition, flags = re.MULTILINE)
+    return re.sub(r'^("|:|&quot;|{{uso|{{sinónimo|{{relacionado|{{ámbito).*\n', '', definition, flags = re.MULTILINE)
 
 def remove_references(definition: str) -> str:
     definition = re.sub(r'(?<=&lt;ref&gt;)(.*?)(?=&lt;\/ref&gt;)', '', definition, flags = re.MULTILINE)
