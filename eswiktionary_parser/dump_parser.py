@@ -1,3 +1,4 @@
+import csv
 from dataclasses import dataclass
 import re
 from bigxml import Parser, xml_handle_element, xml_handle_text
@@ -39,9 +40,11 @@ def pages_iterator(dump_filename: str = None):
 
 if __name__ == "__main__":
     download()
-    for page in pages_iterator():
-        for definition in page.definitions:
-            print("{};{};{}".format(
-                page.title,
-                definition.classification,
-                definition.definition))
+    with open("downloads/eswiktionary.csv", "w") as file:
+        writer = csv.writer(file)
+        writer.writerow(["word", "category", "definition"])
+        for page in pages_iterator():
+            if not page.is_definition:
+                continue
+            for definition in page.definitions:
+                writer.writerow([page.title, definition.classification, definition.definition])
