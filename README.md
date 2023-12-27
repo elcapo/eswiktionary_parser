@@ -10,7 +10,7 @@ As it's goal is to be used by software developers, it's programmatic interface m
 
 If you are not a developer, you may find the files that this package generates more interesting that the package itself.
 
-Check the [project releases](https://github.com/elcapo/eswiktionary_parser/releases) to find those files.
+Check the [project releases](https://github.com/elcapo/eswiktionary_parser/releases) or, alternatively, check this [HuggingFace dataset](https://huggingface.co/datasets/carloscapote/es.wiktionary.org).
 
 ## Installation
 
