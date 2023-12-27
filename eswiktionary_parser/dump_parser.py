@@ -42,7 +42,6 @@ if __name__ == "__main__":
     download()
     with open("downloads/eswiktionary.csv", "w") as file:
         writer = csv.writer(file)
-        writer.writerow(["word", "category", "definition"])
         for page in pages_iterator():
             if not page.is_definition:
                 continue
