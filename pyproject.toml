@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "eswiktionary_parser"
 version = "0.1.0"
-description = ""
+description = "Simple parser of the Spanish Wiktionary dump files"
 authors = ["Carlos Capote Pérez-Andreu <carlos.capote@hawara.es>"]
 readme = "README.md"
 
