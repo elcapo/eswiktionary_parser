@@ -77,7 +77,7 @@ def classify_section(section: str) -> str:
     if "{{pronombre personal" in section:
         return "pronombre personal"
     if "{{adjetivo" in section:
-        return "adjectivo"
+        return "adjetivo"
     if "{{forma adjetivo" in section:
         return "adjetivo"
     if "{{sustantivo propio" in section:
@@ -141,7 +141,7 @@ def parse_templates(code: Wikicode) -> Wikicode:
         return
     for template in code.filter_templates():
         # Handle cases where the template name is followed by a line break
-        # Example: {{ejemplo\n
+        # Example: {{adjetivo\n
         if  template.name.startswith("adjetivo") or \
             template.name.startswith("desambiguación") or \
             template.name.startswith("glotónimos") or \
