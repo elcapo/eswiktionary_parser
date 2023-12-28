@@ -102,6 +102,8 @@ def classify_section(section: str) -> str:
         return "interjección interrogativa"
     if "{{adverbio|es|exclamativo" in section:
         return "adverbio exclamativo"
+    if "{{contracción" in section:
+        return "contracción"
 
 def safe_remove(code: Wikicode, template: Template):
     try:
@@ -173,6 +175,18 @@ def parse_templates(code: Wikicode) -> Wikicode:
         
         if template.name == "l" or template.name == "l+":
             safe_replace(code, template, template.get(2))
+            continue
+
+        if template.name == "contracción":
+            if not template.has(4):
+                safe_remove(code, template)
+                continue
+            meaning = "Contracción de {} {} y {} {}".format(
+                with_article(template.get(3)),
+                template.get(1),
+                with_article(template.get(4)),
+                template.get(2))
+            safe_replace(code, template, meaning)
             continue
 
         if template.name == "impropia":
@@ -305,6 +319,11 @@ def parse_templates(code: Wikicode) -> Wikicode:
             continue
 
     return code
+
+def with_article(word_type: str) -> str:
+    if word_type == "preposición":
+        return "la preposición"
+    return "el {}".format(word_type)
 
 def remove_headings(code: Wikicode) -> Wikicode:
     if not code:
