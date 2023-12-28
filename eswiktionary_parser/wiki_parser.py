@@ -150,6 +150,7 @@ def parse_templates(code: Wikicode) -> Wikicode:
         # Handle cases where the template name is followed by a line break
         # Example: {{adjetivo\n
         if  template.name.startswith("adjetivo") or \
+            template.name.startswith("cita libro") or \
             template.name.startswith("desambiguación") or \
             template.name.startswith("glotónimos") or \
             template.name.startswith("inflect") or \
