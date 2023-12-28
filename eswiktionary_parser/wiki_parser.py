@@ -66,7 +66,7 @@ def is_not_spanish(section: str) -> bool:
 def classify_section(section: str) -> str:
     if "{{verbo transitivo" in section:
         return "verbo transitivo"
-    if "{{forma verbo" in section:
+    if "{{forma verbo" in section or "{{forma verbal" in section:
         return "conjugación"
     if "{{verbo intransitivo" in section:
         return "verbo intransitivo"
@@ -245,6 +245,11 @@ def parse_templates(code: Wikicode) -> Wikicode:
                 safe_remove(code, template)
                 continue
             meaning = "Acción o efecto de {}".format(verb)
+            safe_replace(code, template, meaning)
+            continue
+
+        if template.name == "participio":
+            meaning = "Participio de {}".format(template.get(1))
             safe_replace(code, template, meaning)
             continue
 
