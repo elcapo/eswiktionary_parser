@@ -50,6 +50,8 @@ def section_is_ignorable(section: str) -> bool:
         return True
     if "= Traducciones =" in section or "{{trad-" in section:
         return True
+    if "= Refranes =" in section:
+        return True
     if "Referencias y notas" in section:
         return True
     if not contains_letters(section):
@@ -66,7 +68,7 @@ def is_not_spanish(section: str) -> bool:
 def classify_section(section: str) -> str:
     if "{{verbo transitivo" in section:
         return "verbo transitivo"
-    if "{{forma verbo" in section or "{{forma verbal" in section:
+    if "{{forma verbo" in section or "{{forma verbal" in section or "{{f.v":
         return "conjugación"
     if "{{verbo intransitivo" in section:
         return "verbo intransitivo"
@@ -253,7 +255,7 @@ def parse_templates(code: Wikicode) -> Wikicode:
             safe_replace(code, template, meaning)
             continue
 
-        if template.name == "forma verbo":
+        if template.name == "forma verbo" or template.name == "f.v":
             if template.has("p"):
                 person = template.get("p").value
             elif template.has(2):
@@ -302,6 +304,11 @@ def parse_templates(code: Wikicode) -> Wikicode:
                 time = "pretérito imperfecto"
             elif time == "pret ind":
                 time = "pretérito perfecto simple"
+            elif time == "pres":
+                time = "presente"
+            
+            if mode == "ind":
+                mode = "indicativo"
 
             if person and mode and time:
                 meaning += " del {} de {} de {}".format(
